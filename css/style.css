@@ -16,6 +16,22 @@ body {
 /****** 
 common 
 *******/
+.jumbotron,
+main,
+footer {
+    
+    padding: 0 330px;
+}
+
+.jumbotron > * {
+
+    border: 2px dashed black;
+}
+
+.jumbo-bottom-text > * {
+
+    border: 2px dashed white;
+}
 
 ul {
 
@@ -26,6 +42,12 @@ a {
 
     text-decoration: none;
     color: #000000;
+}
+
+h1 {
+
+    font-size: 80px;
+    font-weight: 800;
 }
 
 .side-bar {
@@ -41,9 +63,20 @@ a {
     padding: 5px 15px;
 }
 
+.big {
+
+    padding: 10px 15px;
+}
+
 /****** 
 header 
 *******/
+header {
+
+    background-color: #b4d0e6;
+}
+
+/* nav bar */
 .nav-bar {
 
     background-color: white;
@@ -67,6 +100,52 @@ header
 .side-bar .btn {
 
     margin-left: 20px;
+}
+
+/* jumbotron */
+.jumbotron {
+
+    position: relative;
+    top: 40px;
+}
+
+.jumbo-bottom-text {
+
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.jumbo-bottom-text span {
+
+    width: fit-content;
+}
+
+.jumbo-bottom-text img {
+
+    max-width: 100%;
+    flex-grow: 0;
+}
+
+.side-text {
+
+    flex-shrink: 0;
+    width: 30%;
+}
+
+.side-text > * {
+
+    margin: 40px 0;
+}
+
+.side-text p:first-child {
+
+    margin-top: 0;
+}
+
+.side-text i {
+
+    font-size: 60px;
 }
 
 /****** 
