@@ -56,16 +56,87 @@ h1 {
     align-items: center;
 }
 
+/* button */
 .btn {
 
     background-color: #0061fe;
     color: #ffffff;
     padding: 5px 15px;
+    text-align: center;
 }
 
 .big {
 
     padding: 10px 15px;
+}
+
+/* card subscription plans */
+.sub-plan {
+
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d0cfd4;
+    width: calc((100% - 80px) / 3);
+}
+
+.sub-plan > span {
+
+    border-bottom: 1px solid #d0cfd4;
+    text-align: center;
+    padding: 10px;
+}
+
+.details-box {
+
+    padding: 30px 20px;
+}
+
+.details-box h2 {
+
+    margin-bottom: 20px;
+}
+
+.price-box {
+
+    font-weight: bold;
+}
+
+.exp {
+
+    color: #7080b1;
+    margin: 10px 0 40px;
+}
+
+.details-box > ul {
+
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.details-box a div {
+
+    margin: 50px 0 30px;
+}
+
+.bord-btm {
+
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d0cfd4;
+}
+
+.buy-link a {
+
+    text-decoration: underline;
+    color: #0000ee;
+}
+
+.plan-high-text {
+
+    font-weight: bold;
+    margin: 70px 0 30px;
 }
 
 /****** 
@@ -151,6 +222,12 @@ header {
 /****** 
 main 
 *******/
+.subscription-plans-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
 
 /****** 
 footer 
