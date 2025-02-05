@@ -23,7 +23,8 @@ footer {
     padding: 0 330px;
 }
 
-.jumbotron > * {
+.jumbotron > *,
+main > * {
 
     border: 2px dashed black;
 }
@@ -73,8 +74,6 @@ h1 {
 /* card subscription plans */
 .sub-plan {
 
-    margin-top: 150px;
-
     display: flex;
     flex-direction: column;
     border: 1px solid #d0cfd4;
@@ -93,8 +92,9 @@ h1 {
     padding: 30px 20px;
 }
 
-.details-box h2 {
+.details-box h3 {
 
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -150,6 +150,7 @@ header
 header {
 
     background-color: #b4d0e6;
+    border-top: 1px solid #d0cfd4;
 }
 
 /* nav bar */
@@ -227,11 +228,23 @@ header {
 /****** 
 main 
 *******/
+main {
+
+    margin-top: 150px;
+    border-top: 1px solid #d0cfd4;
+    padding-top: 50px;
+}
+
 .subscription-plans-box {
 
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+}
+
+main h2 {
+
+    font-size: 45px;
 }
 
 /****** 
