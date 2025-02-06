@@ -342,7 +342,8 @@ main h3 {
 /* contact us */
 .contact-text {
 
-    padding: 30px;
+    width: 40%;
+    padding: 60px 50px;
 }
 
 .contact-text p {
