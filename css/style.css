@@ -361,3 +361,42 @@ main h3 {
 /****** 
 footer 
 *******/
+footer {
+
+    background-color: #000000;
+}
+
+footer * {
+
+    color: #ffffff;
+}
+
+.useful-link-box {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 80px;
+}
+
+.useful-link-box ul li:first-child {
+
+    margin-bottom: 15px;
+}
+
+.useful-link-box li{
+
+    line-height: 2;
+}
+
+.lang-select-box {
+
+    display: inline-block;
+    border-top: 1px solid #ffffff;
+    padding: 40px 0;
+}
+
+.lang-select {
+
+    display: flex;
+    gap: 5px;
+}
