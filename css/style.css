@@ -26,7 +26,7 @@ footer {
     padding: 0 330px;
 }
 
-.jumbotron > *,
+/* .jumbotron > *,
 main > * {
 
     border: 2px dashed black;
@@ -35,7 +35,7 @@ main > * {
 .bottom-text > * {
 
     border: 2px dashed white;
-}
+} */
 
 ul {
 
