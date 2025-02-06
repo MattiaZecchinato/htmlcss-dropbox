@@ -12,6 +12,10 @@ body {
     background-color: aquamarine;
     font-family: "Open Sans", serif;
 }
+/* 
+.btn:hover {
+    filter: brightness(1.4);
+  } */
 
 /****** 
 common 
@@ -72,12 +76,16 @@ h1 {
 }
 
 /* card subscription plans */
+.column-wrap {
+
+    width: calc((100% - 120px) / 3);
+}
+
 .sub-plan {
 
     display: flex;
     flex-direction: column;
     border: 1px solid #d0cfd4;
-    width: calc((100% - 120px) / 3);
 }
 
 .sub-plan > span {
@@ -116,7 +124,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.details-box a div {
+.spacing {
 
     margin: 50px 0 30px;
 }
@@ -142,6 +150,23 @@ h1 {
 .high-list li:first-child {
 
     color: #0061fe;
+}
+
+/* card subscription plans stretch */
+.text-box {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.stretch-box .price-box {
+
+    margin-bottom: 50px;
+}
+
+.text-box a div.btn {
+
+    padding: 10px 50px;
 }
 
 /****** 
