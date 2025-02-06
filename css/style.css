@@ -330,9 +330,20 @@ main h3 {
 }
 
 /* contact us */
+.contact-text {
+
+    padding: 30px;
+}
+
+.contact-text p {
+
+    margin: 20px 0 35px;
+}
+
 .bottom-text a div.big {
 
     border: 1px solid #000000;
+    display: inline-block;
 }
 
 /* main feature */
