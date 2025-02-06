@@ -154,7 +154,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.spacing {
+.spacing-btn {
 
     margin: 50px 0 30px;
 }
@@ -325,7 +325,7 @@ main h3 {
 }
 
 /* sub plan */
-.spacing {
+.spacing-box {
 
     margin: 60px 0 200px;
 }
