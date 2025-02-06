@@ -33,7 +33,7 @@ main > * {
     border: 2px dashed black;
 }
 
-.jumbo-bottom-text > * {
+.bottom-text > * {
 
     border: 2px dashed white;
 }
@@ -75,7 +75,38 @@ h1 {
     padding: 10px 15px;
 }
 
+/* contact us and jumbotron bottom section */
+.bottom-text {
+
+    display: flex;
+}
+
+.bottom-text span {
+
+    width: fit-content;
+}
+
+.bottom-text img {
+
+    max-width: 100%;
+    flex-grow: 0;
+}
+
+.side-text {
+
+    flex-shrink: 0;
+    width: 30%;
+}
+
 /* card subscription plans */
+.subscription-plans-box,
+.main-feature-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
 .column-wrap {
 
     width: calc((100% - 120px) / 3);
@@ -102,7 +133,6 @@ h1 {
 
 .details-box h3 {
 
-    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -211,41 +241,23 @@ header {
     top: 40px;
 }
 
-.jumbo-bottom-text {
+.jumbotron .bottom-text {
 
-    display: flex;
     position: relative;
     top: 50px;
 }
 
-.jumbo-bottom-text span {
-
-    width: fit-content;
-}
-
-.jumbo-bottom-text img {
-
-    max-width: 100%;
-    flex-grow: 0;
-}
-
-.side-text {
-
-    flex-shrink: 0;
-    width: 30%;
-}
-
-.side-text > * {
+.jumbotron .side-text > * {
 
     margin: 40px 0;
 }
 
-.side-text p:first-child {
+.jumbotron .side-text p:first-child {
 
     margin-top: 0;
 }
 
-.side-text i {
+.jumbotron .side-text i {
 
     font-size: 60px;
 }
@@ -260,18 +272,17 @@ main {
     padding-top: 50px;
 }
 
-.subscription-plans-box {
-
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-}
-
 main h2 {
 
     font-size: 45px;
 }
 
+main h3 {
+
+    font-size: 25px;
+}
+
+/* radio button */
 .box-radio-btn {
 
     display: flex;
@@ -312,6 +323,14 @@ main h2 {
     border: 2px solid #0061fe;
     background-color: #0061fe;
 }
+
+/* contact us */
+.bottom-text a div.big {
+
+    border: 1px solid #000000;
+}
+
+
 
 /****** 
 footer 
