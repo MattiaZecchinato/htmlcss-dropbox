@@ -324,13 +324,17 @@ main h3 {
     background-color: #0061fe;
 }
 
+/* sub plan */
+.spacing {
+
+    margin: 60px 0 200px;
+}
+
 /* contact us */
 .bottom-text a div.big {
 
     border: 1px solid #000000;
 }
-
-
 
 /****** 
 footer 
