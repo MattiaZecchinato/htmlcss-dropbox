@@ -9,7 +9,6 @@
 
 body {
 
-    background-color: aquamarine;
     font-family: "Open Sans", serif;
 }
 /* 
@@ -340,6 +339,11 @@ main h3 {
 .main-feature-container {
 
     margin: 130px 0 200px;
+}
+
+.main-feature-container h2 {
+
+    margin-bottom: 70px;
 }
 
 .main-feature-container h3 {
