@@ -342,6 +342,11 @@ main h3 {
     margin: 130px 0 200px;
 }
 
+.main-feature-container h3 {
+
+    margin-bottom: 30px;
+}
+
 .feature-img img {
 
     max-width: 100%;
