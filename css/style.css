@@ -226,6 +226,12 @@ header {
     gap: 30px;
 }
 
+.nav-bar li a:hover {
+
+    border-bottom: 2px solid #000000;
+    padding-bottom: 27px;
+}
+
 .side-bar img {
 
     padding-right: 30px;
